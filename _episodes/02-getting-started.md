@@ -199,7 +199,7 @@ We can
 also see the commit message 'Add index.md', which we added by adding the `-m` flag to `git commit`.
 The commit message is used to record a short, descriptive, and specific summary of what we did to help us remember later on without having to look at the actual changes.
 If we just run `git commit` without the `-m` option, Git will launch nano (or whatever other editor we configured as `core.editor`)
-so that we can write a longer message.
+so that we can write a longer message. This is considered "best practice" since the `-m` option often lead to short unreadable commit messages instead of writing a more useful summary in the default editor.
 
 Having made a commit, we now have a permanent record of what was changed,
 along with metadata about who made the commit and at what time.
